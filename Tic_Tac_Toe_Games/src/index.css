@@ -65,4 +65,10 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+
+  .border-row{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 8px;
+  }
 }
